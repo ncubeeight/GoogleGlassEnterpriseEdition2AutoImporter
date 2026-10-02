@@ -49,8 +49,32 @@ I look forward to the release of Astra soon! But I'd like to say a special
 thank you to all the engineers who made such a compelling product for
 photographers. Still going strong after 12 years!
 
+## Version 2: October 2026
+
+The first release had a frustrating flaw: each time the Glass was plugged
+in, it copied only one photo and one video, leaving the rest behind. Version
+2 fixes that and imports everything in a single pass.
+
+It also answers a question I kept asking myself while using it: *is anything
+actually happening?* After you accept the USB debugging prompt, the Mac now
+opens a progress window. It shows which file is being copied, how much is
+left, and exactly where your photos and videos are being saved, with a
+reminder to keep the Glass plugged in until it's done. If the Glass is
+unplugged partway through, the importer says so and picks up where it left
+off next time.
+
+If you installed the first version, download the new one and run
+`./install.sh` again to update.
+
 ## Try it
 
-Grab the utility from [`GlassEE2AutoImport.zip`](GlassEE2AutoImport.zip) in
-this repo, or see the [README](https://github.com/ncubeeight/GoogleGlassEnterpriseEdition2AutoImporter#readme)
-for setup details.
+Grab the latest version from [`GlassEE2AutoImport.zip`](GlassEE2AutoImport.zip),
+or browse the source in the [`GlassAutoImport`](https://github.com/ncubeeight/GoogleGlassEnterpriseEdition2AutoImporter/tree/main/GlassAutoImport)
+folder. The [README](https://github.com/ncubeeight/GoogleGlassEnterpriseEdition2AutoImporter#readme)
+has setup details.
+
+## Credits
+
+Built with [Claude Code](https://claude.com/claude-code) by Anthropic. See
+[CREDITS.md](https://github.com/ncubeeight/GoogleGlassEnterpriseEdition2AutoImporter/blob/main/CREDITS.md)
+for the full story of who did what.
